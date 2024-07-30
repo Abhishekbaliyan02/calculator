@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="" name="Calculator">
+            <input type="text" name="calculation"><br>
+            <input type="button" value="1" onclick="Calculator.calculation.value+='1'">
+            <input type="button" value="2" onclick="Calculator.calculation.value+='2'">
+            <input type="button" value="3" onclick="Calculator.calculation.value+='3'">
+            <input type="button" value="+" onclick="Calculator.calculation.value+='+'"><br>
+            <input type="button" value="4" onclick="Calculator.calculation.value+='4'">
+            <input type="button" value="5" onclick="Calculator.calculation.value+='5'">
+            <input type="button" value="6" onclick="Calculator.calculation.value+='6'">
+            <input type="button" value="-" onclick="Calculator.calculation.value+='-'"><br>
+            <input type="button" value="7" onclick="Calculator.calculation.value+='7'">
+            <input type="button" value="8" onclick="Calculator.calculation.value+='8'">
+            <input type="button" value="9" onclick="Calculator.calculation.value+='9'">
+            <input type="button" value="*" onclick="Calculator.calculation.value+='*'"><br>
+            <input type="button" value="/" onclick="Calculator.calculation.value+='/'">
+            <input type="button" value="0" onclick="Calculator.calculation.value+='0'">
+            <input type="button" value="." onclick="Calculator.calculation.value+='.'">
+            <input type="button" value="=" onclick="Calculator.calculation.value=eval(Calculator.calculation.value)"><br>
+            <input type="button" value="Clear all" id="btn" onclick="Calculator.calculation.value=' '">
+        </form>
+    </main>
+</body>
+</html>

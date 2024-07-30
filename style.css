@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(25, 78, 51);
+}
+main{
+    width: 300px;
+    height: 420px;
+    background-color: rgb(41, 85, 74);
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+form input[type=text]{
+    width: 280px;
+    height: 50px;
+    border: 2px double black;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+    background-color: rgb(205, 196, 196);
+    box-shadow: 1px 1px;
+}
+form input[type=button]{
+    width: 50px;
+    height: 40px;
+    margin: 17px 5px ;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(81, 136, 90);
+    color: rgb(205, 196, 196);
+    box-shadow: 1px 1px;
+}
+#btn{
+    width: 280px;
+    height: 40px;
+    margin: 17px 5px ;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+form input[type=button]:hover{
+    background-color: rgb(205, 196, 196);
+    color: rgb(81, 136, 90) ;
+
+}
